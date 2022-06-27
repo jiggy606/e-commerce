@@ -79,7 +79,11 @@ const Footer = () => {
             <Left>
                 <Logo>danny.</Logo>
                 <Description>
-                    lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                    venenatis, dolor in finibus malesuada, lectus ipsum porta nunc, at
+                    iaculis arcu nisi sed mauris. Nulla fermentum vestibulum ex, eget
+                    tristique tortor pretium ut. Curabitur elit justo, consequat id
+                    condimentum ac, volutpat ornare.
                 </Description>
                 <SocialContainer>
                     <SocialIcon color='#3B5999'>

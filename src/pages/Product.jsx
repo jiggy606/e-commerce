@@ -134,7 +134,7 @@ const Product = () => {
                         tristique tortor pretium ut. Curabitur elit justo, consequat id
                         condimentum ac, volutpat ornare.
                     </Description>
-                    <Price>#3,500</Price>
+                    <Price>#10,000</Price>
 
                     <FilterContainer>
                         <Filter>

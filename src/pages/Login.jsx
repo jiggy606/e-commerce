@@ -1,6 +1,7 @@
 import React from 'react'
 import img from '../assets/img5.jpg'
 
+import { Link } from "react-router-dom";
 import styled from 'styled-components';
 
 const Container = styled.div`
@@ -50,7 +51,7 @@ const Button = styled.button`
     margin-bottom: 10px
 `
 
-const Link = styled.a`
+const Linker = styled.a`
     margin: 5px 0px;
     font-size: 12px;
     text-decoration: none;
@@ -73,8 +74,10 @@ const Login = () => {
 
                     <Button>login</Button>
 
-                    <Link>can't remember password</Link>
-                    <Link>create a new account</Link>
+                    <Linker>can't remember password</Linker>
+                    <Link to='/register'>
+                        <Linker>create a new account</Linker>
+                    </Link>
                 </Form>
             </Wrapper>
         </Container>

@@ -1,5 +1,6 @@
 import { Facebook, Instagram, Mail, Phone, Pinterest, Room, Twitter } from '@material-ui/icons';
 import React from 'react'
+import { Link } from "react-router-dom";
 
 import styled from 'styled-components';
 

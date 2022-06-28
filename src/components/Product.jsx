@@ -1,5 +1,6 @@
 import React from 'react'
 import { ShoppingCartOutlined, SearchOutlined, FavoriteBorderOutlined } from '@material-ui/icons'
+import { Link } from "react-router-dom";
 
 import styled from 'styled-components';
 

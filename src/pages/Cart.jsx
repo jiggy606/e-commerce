@@ -1,6 +1,8 @@
 import React from 'react'
 import img1 from '../assets/img3.jpg'
-import img2 from '../assets/img33.jpg' 
+import img2 from '../assets/img33.jpg'
+
+import {Link} from 'react-router-dom'
 
 import styled from 'styled-components';
 
@@ -236,7 +238,9 @@ const Cart = () => {
                             <SummaryItemText>total</SummaryItemText>
                             <SummaryItemPrice>#31,500</SummaryItemPrice>
                         </SummaryItem>
-                        <Button>checkout now</Button>
+                        <Link to='/product'>
+                            <Button>checkout now</Button>
+                        </Link>
                     </Summary>
                 </Bottom>
 
